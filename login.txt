@@ -1,0 +1,7 @@
+1 login
+        enter username and password
+2 signup
+        enter name,username,email,password
+3 forgot password
+        enter email
+4 exit

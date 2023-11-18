@@ -24,10 +24,10 @@ int main() {
     string enterEmail = "Enter your email: ";
     string enterUserName = "Enter user name: ";
     string enterPassword = "Enter your password: ";
-    string idenName = "Name: ";
-    string idenUser = "Username: ";
-    string idenPass = "Password: ";
-    string idenEmail = "E-mail: ";
+    string idenName = "Name:";
+    string idenUser = "Username:";
+    string idenPass = "Password:";
+    string idenEmail = "E-mail:";
 
 
     if (x == 1) {
@@ -57,36 +57,49 @@ int main() {
 
         ifstream readFile;
         readFile.open("logininfo.txt");
-        string searchUser = idenUser + username;
-        string searchPass = idenPass + password;
+        string searchUser =static_cast<string>(idenUser + username);
+        string searchPass = static_cast<string> (idenPass + password);
         string line;
 
 
+        while(getline(readFile,line)){
 
-        while (getline(readFile, line)) {
+            if(searchUser == line ){
+                string line2;
+                while(getline(readFile,line2)){
+                    if(searchPass == line2){
+                        cout << "logged successfully";
+                    }
 
-            if((line.find(searchUser) == string::npos) ){
-                cout << "got the username\n";
+                }
 
             }
-            if((line.find(searchPass) == string::npos)){
-                cout << "got the password";
-                break;
-
-            }
-
-            else{
-                cout << "just create acc";
-                break;
-            }
-
 
         }
+
+
+
+
+
+
+
         readFile.close();
         } else if (x == 3) {
             cout << enterEmail;
             cin >> email;
+            ifstream readFile;
+            readFile.open("logininfo.txt");
+            string searchEmail = static_cast<string>(idenEmail + email);
+            string line;
 
+            while(getline(readFile,line)){
+                if(searchEmail == line){
+                    cout << "enter new password";
+                }
+            }
+
+
+            readFile.close();
         } else if (x == 4) {
 
             cout << "Thank you for your time";

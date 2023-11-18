@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/login.dir/filetry.cpp.obj"
-  "CMakeFiles/login.dir/filetry.cpp.obj.d"
+  "CMakeFiles/login.dir/main.cpp.obj"
+  "CMakeFiles/login.dir/main.cpp.obj.d"
   "liblogin.dll.a"
   "login.exe"
   "login.exe.manifest"

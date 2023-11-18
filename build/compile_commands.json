@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/PC/Documents/Code/Projects/login/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\login.dir\\filetry.cpp.obj -c C:\\Users\\PC\\Documents\\Code\\Projects\\login\\filetry.cpp",
-  "file": "C:/Users/PC/Documents/Code/Projects/login/filetry.cpp",
-  "output": "CMakeFiles/login.dir/filetry.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\login.dir\\main.cpp.obj -c C:\\Users\\PC\\Documents\\Code\\Projects\\login\\main.cpp",
+  "file": "C:/Users/PC/Documents/Code/Projects/login/main.cpp",
+  "output": "CMakeFiles/login.dir/main.cpp.obj"
 }
 ]

@@ -128,29 +128,29 @@ login/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/build
 .PHONY : login/fast
 
-filetry.obj: filetry.cpp.obj
-.PHONY : filetry.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-filetry.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/filetry.cpp.obj
-.PHONY : filetry.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-filetry.i: filetry.cpp.i
-.PHONY : filetry.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-filetry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/filetry.cpp.i
-.PHONY : filetry.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-filetry.s: filetry.cpp.s
-.PHONY : filetry.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-filetry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/filetry.cpp.s
-.PHONY : filetry.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\login.dir\build.make CMakeFiles/login.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... login
-	@echo ... filetry.obj
-	@echo ... filetry.i
-	@echo ... filetry.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

@@ -68,28 +68,28 @@ include CMakeFiles/login.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/login.dir/flags.make
 
-CMakeFiles/login.dir/filetry.cpp.obj: CMakeFiles/login.dir/flags.make
-CMakeFiles/login.dir/filetry.cpp.obj: C:/Users/PC/Documents/Code/Projects/login/filetry.cpp
-CMakeFiles/login.dir/filetry.cpp.obj: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PC\Documents\Code\Projects\login\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/login.dir/filetry.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/filetry.cpp.obj -MF CMakeFiles\login.dir\filetry.cpp.obj.d -o CMakeFiles\login.dir\filetry.cpp.obj -c C:\Users\PC\Documents\Code\Projects\login\filetry.cpp
+CMakeFiles/login.dir/main.cpp.obj: CMakeFiles/login.dir/flags.make
+CMakeFiles/login.dir/main.cpp.obj: C:/Users/PC/Documents/Code/Projects/login/main.cpp
+CMakeFiles/login.dir/main.cpp.obj: CMakeFiles/login.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PC\Documents\Code\Projects\login\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/login.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/main.cpp.obj -MF CMakeFiles\login.dir\main.cpp.obj.d -o CMakeFiles\login.dir\main.cpp.obj -c C:\Users\PC\Documents\Code\Projects\login\main.cpp
 
-CMakeFiles/login.dir/filetry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/filetry.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\Code\Projects\login\filetry.cpp > CMakeFiles\login.dir\filetry.cpp.i
+CMakeFiles/login.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\Code\Projects\login\main.cpp > CMakeFiles\login.dir\main.cpp.i
 
-CMakeFiles/login.dir/filetry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/filetry.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Code\Projects\login\filetry.cpp -o CMakeFiles\login.dir\filetry.cpp.s
+CMakeFiles/login.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\Code\Projects\login\main.cpp -o CMakeFiles\login.dir\main.cpp.s
 
 # Object files for target login
 login_OBJECTS = \
-"CMakeFiles/login.dir/filetry.cpp.obj"
+"CMakeFiles/login.dir/main.cpp.obj"
 
 # External object files for target login
 login_EXTERNAL_OBJECTS =
 
-login.exe: CMakeFiles/login.dir/filetry.cpp.obj
+login.exe: CMakeFiles/login.dir/main.cpp.obj
 login.exe: CMakeFiles/login.dir/build.make
 login.exe: CMakeFiles/login.dir/linkLibs.rsp
 login.exe: CMakeFiles/login.dir/objects1.rsp

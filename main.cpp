@@ -58,23 +58,26 @@ int main() {
         ifstream readFile;
         readFile.open("logininfo.txt");
         string searchUser =static_cast<string>(idenUser + username);
-        string searchPass = static_cast<string> (idenPass + password);
+        string searchPass =static_cast<string> (idenPass + password);
         string line;
 
 
         while(getline(readFile,line)){
 
-            if(searchUser == line ){
-                string line2;
-                while(getline(readFile,line2)){
-                    if(searchPass == line2){
-                        cout << "logged successfully";
-                    }
-
+            if (searchUser == line) {
+                if (getline(readFile, line) && searchPass == line) {
+                    cout << "Logged in successfully\n";
+                    return 0;
                 }
-
+                else {
+                    cout << "Wrong Pass";
+                    break;
+                }
             }
-
+else{
+    cout << "create account";
+                break;
+}
         }
 
 
